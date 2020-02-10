@@ -11,9 +11,7 @@ This is the Data Science portion for an Application that uses Machine Learning t
 - For the Data Science portion of this application, we used this Kaggle [Spotify Audio Features](https://www.kaggle.com/tomigelo/spotify-audio-features) Dataset. Dataset has a number of tracks and for every track an artist. You will also find Spotify's Track Id, along with a number of numeric audio features such as acousticness, danceability, tempo, speechiness and several more. We took this information and utilized a [KDTree](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KDTree.html) from Scikit Learn in order to model our Song Recommender. This method finds the songs nearest to each other in terms of the numerical audio features previously mentioned. From there we have a list of songs, and along with each song is a number of recommended songs(in the example we use 15). We then push it to AWS RDS PostgreSQL database.
 
 ## Presentation
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=d3GrBrgw7kQ
-" target="_blank"><img src="http://img.youtube.com/vi/d3GrBrgw7kQ/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+[![Spotifier Presentation Link to YouTube Video](http://img.youtube.com/vi/d3GrBrgw7kQ/0.jpg)](http://www.youtube.com/watch?v=d3GrBrgw7kQ)
 
 ## Backend API Endpoint 
 
